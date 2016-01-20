@@ -56,7 +56,7 @@
 			}
 		?>
 
-<div id="contenido<?php the_ID(); ?>" <?php post_class( $centrar ); ?>>	
+<div id="contenido<?php the_ID(); ?>" <?php post_class( $centrar ); ?>>	<!-- TODO: aca abajo error de sintaxis intencional para deshabilitar colores -->
 			<h2 id="obra-<?php the_ID(); ?>" class="entry-title" style="background-colors:<?=$colores[$contador];?>"><a href="<?php the_permalink(); ?>" rel="bookmark" id="<?php the_ID(); ?>" class="<? if($abrir == false){ ?>inactivo<?php }else{ ?>activo<?php } ?>"><?php the_title(); ?></a></h2>
 
 
