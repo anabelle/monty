@@ -373,6 +373,10 @@ nav {
 	background-color:#FF3366;
 }
 
+#main .centrar-si h2.entry-title {
+	text-align: center;
+}
+
 html body #container #main h2 a.loading {
 	background:transparent;
 	background-image:url(img/ajax-loader.gif);
