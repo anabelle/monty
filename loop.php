@@ -44,7 +44,7 @@
 <?php 
 	while ( have_posts() ) : the_post(); 
 	$centrar_titulo = get_post_custom_values('centrar_titulo');
-	$centrar = "centrar-"$centrar_titulo[0];
+	$centrar = "centrar-".$centrar_titulo[0];
 
 ?>
 
