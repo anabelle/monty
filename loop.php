@@ -43,7 +43,8 @@
 
 <?php 
 	while ( have_posts() ) : the_post(); 
-	$centrar = "centrar-".get_post_custom_values('centrar_titulo');
+	$centrar_titulo = get_post_custom_values('centrar_titulo');
+	$centrar = "centrar-"$centrar_titulo[0];
 
 ?>
 
@@ -55,7 +56,7 @@
 			}
 		?>
 
-<div id="contenido<?php the_ID(); ?>" <?php post_class( $centrar[0] ); ?>>	
+<div id="contenido<?php the_ID(); ?>" <?php post_class( $centrar ); ?>>	
 			<h2 id="obra-<?php the_ID(); ?>" class="entry-title" style="background-color:<?=$colores[$contador];?>"><a href="<?php the_permalink(); ?>" rel="bookmark" id="<?php the_ID(); ?>" class="<? if($abrir == false){ ?>inactivo<?php }else{ ?>activo<?php } ?>"><?php the_title(); ?></a></h2>
 
 
