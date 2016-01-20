@@ -57,7 +57,7 @@
 		?>
 
 <div id="contenido<?php the_ID(); ?>" <?php post_class( $centrar ); ?>>	
-			<h2 id="obra-<?php the_ID(); ?>" class="entry-title" style="background-color:<?=$colores[$contador];?>"><a href="<?php the_permalink(); ?>" rel="bookmark" id="<?php the_ID(); ?>" class="<? if($abrir == false){ ?>inactivo<?php }else{ ?>activo<?php } ?>"><?php the_title(); ?></a></h2>
+			<h2 id="obra-<?php the_ID(); ?>" class="entry-title" style="background-colors:<?=$colores[$contador];?>"><a href="<?php the_permalink(); ?>" rel="bookmark" id="<?php the_ID(); ?>" class="<? if($abrir == false){ ?>inactivo<?php }else{ ?>activo<?php } ?>"><?php the_title(); ?></a></h2>
 
 
 
