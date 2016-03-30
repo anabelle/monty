@@ -287,7 +287,7 @@ a:hover {
  	margin:20px auto 0 auto;
  	width:980px;
 	position:relative;
-	padding:0 0 44px 0;
+	padding:0 0 0px 0;
 }
 
 	span.lang {
@@ -504,9 +504,13 @@ html body #container #main .category-textos h2 a.loading {
 
 
 #credits {
-	margin-top:2em;
+	margin-top:0em;
 	font-size:0.9em;
 	text-align:right;
+}
+
+footer img {
+	display: none;
 }
 
 	#credits a:link ,
