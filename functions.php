@@ -50,8 +50,8 @@ if(isset($_POST['cual']))
 		$obra = get_posts( $args );
 
 		foreach($obra as $post) : setup_postdata($post); 
-		$ingles = get_post_custom_values('contenido_en_ingles');
-		$izq = get_post_custom_values('columna_izquierda');
+		$ingles = get_post_custom_values('contenido_en_ingles', $_POST['cual'] );
+		$izq = get_post_custom_values('columna_izquierda', $_POST['cual'] );
 
 ?>
 		<div class="lienzo clearfix <?php if($ingles){print_r('dos_columnas');}?>">

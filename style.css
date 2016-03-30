@@ -369,6 +369,18 @@ nav {
 				color:#800080;
 			}
 
+			nav ul li#menu-item-135 a:hover , 
+			nav ul li#menu-item-135.current-menu-item a ,
+			.home nav ul li.menu-item-132 a {
+				/*font-style:italic;*/
+				color:#66CEF6;
+			}
+
+nav ul li#menu-item-135 a ,
+nav ul li#menu-item-135 a:visited {
+	color:#66CEF6;
+}
+
 #main h2.entry-title {
 	background-color:#000;
 }
@@ -456,9 +468,28 @@ html body #container #main h2 a.loading {
 	font-style:italic;
 }
 
+/* Para categoria textos */
+#main .category-textos h2.entry-title a:hover ,
+#main .category-textos h2.entry-title a.activo ,
+#main .category-textos h2.entry-title a.desactivado {
+	color:#fff !important;
+	background:#66CEF6;
+	font-style:italic;
+}
+
+#main .category-textos h2.entry-title a ,
+#main .category-textos h2.entry-title a:link ,
+#main .category-textos h2.entry-title a:visited {
+	color: #66CEF6;
+}
+
 #main .category-ultimamente h2.entry-title a.activo ,
 #main .category-ultimamente h2.entry-title a.desactivado:hover {
 	font-style:normal;
+}
+
+html body #container #main .category-textos h2 a.loading {
+	background-color: #66CEF6;
 }
 
 #main h2.entry-title a.desactivado {
@@ -605,4 +636,3 @@ div.aligncenter {
   /* Prevent iOS, WinMobile from adjusting font size */
   html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } 
 }
-
