@@ -285,7 +285,7 @@ a:hover {
 #container {
  	text-align:left;
  	margin:20px auto 0 auto;
- 	width:980px;
+ 	max-width:980px;
 	position:relative;
 	padding:0 0 0px 0;
 }
@@ -526,7 +526,15 @@ footer img {
 	}
 
 
+/* GENERAL RESPONSIVE CLASSES */
+img {
+	max-width: 100%;
+	height: auto;
+}
 
+iframe {
+	max-width: 100%;
+}
 
 
 /* Clases de wordpress */
