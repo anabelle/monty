@@ -273,4 +273,9 @@ function limit_posts_per_archive_page() {
 	set_query_var('posts_per_archive_page', $limit);
 }
 add_filter('pre_get_posts', 'limit_posts_per_archive_page');
+
+function rand_color() {
+    return sprintf('#%06X', mt_rand(0, 0xFFFFFF));
+}
+
 ?>
