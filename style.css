@@ -643,7 +643,7 @@ div.aligncenter {
 
 /* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
    Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
-@media screen and (max-device-width: 320px) {
+@media screen and (max-width: 320px) {
 	#main .post .post-inner .dos_columnas .columna {
 		display:block;
 		width:auto;
