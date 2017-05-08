@@ -257,7 +257,7 @@ button {  width: auto; overflow: visible; }
 */
 
 body {
-	font-family:'Lora';
+	font-family: "Times New Roman", Times, serif;
 	text-align:center;
 	color:#000;
 	letter-spacing: 1px;
@@ -414,7 +414,7 @@ html body #container #main h2 a.loading {
 }
 
 #main .biotexto {
-    font-family: "Lora";
+    font-family: "Times New Roman", Times, serif;
     font-size: 1.1em;
     letter-spacing: 1px;
     margin-top:25px;
@@ -424,8 +424,9 @@ html body #container #main h2 a.loading {
 }
 
 	#main .post .post-inner {
-		font-family: 'Lora';
+		font-family: "Times New Roman", Times, serif;
 		/*
+		font-family: 'Lora';
 		font-family: 'Droid Serif', serif;
 	 	font-family: 'lucida grande', 'lucida sans unicode', sans-serif;
 		font-family: 'PT Serif', serif;
