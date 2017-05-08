@@ -455,11 +455,11 @@ html body #container #main h2 a.loading {
 		display:block;
 		width:47.5%;
 		float:left;
-		margin:0 0 9.8% 0;
+		margin:0 0 0.98% 0;
 	}
 	
 	#main .post .post-inner .dos_columnas .izq {
-		margin-right:9.8%;
+		margin-right:0.98%;
 	}
 
 #main h2.entry-title a:hover ,
