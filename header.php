@@ -88,9 +88,9 @@
 		<?php echo(stripslashes($monty_contacto)); ?>
 	</address>
     </header>
-    <nav>
+    <!-- <nav>
     	<?php wp_nav_menu('main'); ?>
-    </nav>
+    </nav> -->
 
 	<!-- <span class="lang">
 		<a href="#en">English</a>
