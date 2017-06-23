@@ -441,7 +441,8 @@ html body #container #main h2 a.loading {
 
 	#main .post .post-inner a {
 		color:	#800080;
-	font-style:normal;
+		font-style:normal;
+		text-decoration: underline;
 	}
 	#main .post .post-inner a:hover {
 		color:	#800080;
