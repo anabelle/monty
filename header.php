@@ -86,11 +86,13 @@
 		<div class="datos">
 			<?php echo(stripslashes(get_option("monty_contacto",'default'))); ?>
 		</div>
-		<div class="nav">
-			<nav>
-				<?php wp_nav_menu('main'); ?>
-			</nav>
-		</div>
+		<?php if( is_user_logged_in() ){ ?>
+			<div class="nav">
+				<nav>
+					<?php wp_nav_menu('main'); ?>
+				</nav>
+			</div>
+		<?php } ?>
 	</address>
     </header>
 
