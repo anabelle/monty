@@ -83,7 +83,7 @@
     <header>
 	<h1 id="montyme" class="off"><?php bloginfo("name"); ?></h1>
 	<address id="contacto" class="clearfix ">
-		<div>
+		<div class="datos">
 			<?php echo(stripslashes(get_option("monty_contacto",'default'))); ?>
 		</div>
 		<div class="nav">

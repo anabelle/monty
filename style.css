@@ -291,14 +291,20 @@ a:hover {
 }
 
 #contacto {
-  display: table-row;
+  display: flex;
 }
 
-#contacto div {
-  display: table-cell;
+#contacto > div {
+  width: 50%;
 }
-#contacto div.nav {
+#contacto > div.nav {
   text-align: right;
+}
+
+#contacto .datos {
+  display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
 }
 
 
