@@ -7,9 +7,9 @@ Author URI: http://8manos.com
 Version: 1
 */
 
-/* 
+/*
   style.css contains a reset, font normalization and some base styles.
-  
+
   credit is left where credit is due.
   additionally, much inspiration was taken from these projects:
     yui.yahooapis.com/2.8.1/build/base/base.css
@@ -17,7 +17,7 @@ Version: 1
     praegnanz.de/weblog/htmlcssjs-kickstart
 */
 
-/* 
+/*
   html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
   v1.4 2009-07-27 | Authors: Eric Meyer & Richard Clark
   html5doctor.com/html-5-reset-stylesheet/
@@ -32,7 +32,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, figure, footer, header, 
+article, aside, figure, footer, header,
 hgroup, menu, nav, section, menu,
 time, mark, audio, video {
   margin:0;
@@ -43,9 +43,9 @@ time, mark, audio, video {
   vertical-align:baseline;
   background:transparent;
   line-height: 22px;
-}                  
+}
 
-article, aside, figure, footer, header, 
+article, aside, figure, footer, header,
 hgroup, nav, section { display:block; }
 
 nav ul { list-style:none; }
@@ -90,31 +90,31 @@ table { font-size:inherit; font:100%; }
 select, input, textarea { font:99% sans-serif; }
 
 
-/* normalize monospace sizing 
+/* normalize monospace sizing
  * en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome
  */
 pre, code, kbd, samp { font-family: monospace, sans-serif; }
- 
 
 
-/* 
- * minimal base styles 
+
+/*
+ * minimal base styles
  */
 
 
-/* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */ 
+/* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
 body, select, input, textarea { color:#444; }
 
 /* Headers (h1,h2,etc) have no default font-size or margin,
-   you'll want to define those yourself. */ 
- 
-/* www.aestheticallyloyal.com/public/optimize-legibility/ */ 
+   you'll want to define those yourself. */
+
+/* www.aestheticallyloyal.com/public/optimize-legibility/ */
 h1,h2,h3,h4,h5,h6 { font-weight: bold; text-rendering: optimizeLegibility; }
 
 /* maxvoltar.com/archive/-webkit-font-smoothing */
 html { -webkit-font-smoothing: antialiased; }
 
- 
+
 /* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
 a:hover, a:active { outline: none; }
 
@@ -124,21 +124,21 @@ a:hover { color:#777; }
 
 p a, p a:active, p a:visited { color:#800080; }
 p a:hover{font-style: italic; color:#800080; }
- 
+
 ul { margin-left:30px; }
 ol { margin-left:30px; list-style-type: decimal; }
 
 small { font-size:85%; }
 strong, th { font-weight: bold; }
 
-td, td img { vertical-align:top; } 
+td, td img { vertical-align:top; }
 
 sub { vertical-align: sub; font-size: smaller; }
 sup { vertical-align: super; font-size: smaller; }
 
-pre { 
-  padding: 15px; 
-  
+pre {
+  padding: 15px;
+
   /* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
   white-space: pre; /* CSS2 */
   white-space: pre-wrap; /* CSS 2.1 */
@@ -157,30 +157,30 @@ label, input[type=button], input[type=submit], button { cursor: pointer; }
 
 
 /* These selection declarations have to be separate.
-   No text-shadow: twitter.com/miketaylr/status/12228805301 
+   No text-shadow: twitter.com/miketaylr/status/12228805301
    Also: hot pink. */
 ::-moz-selection{ background: #800080; color:#fff; text-shadow: none; }
-::selection { background:#800080; color:#fff; text-shadow: none; } 
+::selection { background:#800080; color:#fff; text-shadow: none; }
 
 /*  j.mp/webkit-tap-highlight-color */
-a:link { -webkit-tap-highlight-color: #800080; } 
+a:link { -webkit-tap-highlight-color: #800080; }
 
 
 /* always force a scrollbar in non-IE */
 html { overflow-y: scroll; }
 
-/* make buttons play nice in IE:    
+/* make buttons play nice in IE:
    www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
 button {  width: auto; overflow: visible; }
- 
-/* bicubic resizing for non-native sized IMG: 
+
+/* bicubic resizing for non-native sized IMG:
    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
 .ie7 img { -ms-interpolation-mode: bicubic; }
 
 
 
-/* 
- * Non-semantic helper classes 
+/*
+ * Non-semantic helper classes
  */
 
 /* for image replacement */
@@ -188,12 +188,12 @@ button {  width: auto; overflow: visible; }
 
 /* Hide for both screenreaders and browsers
    css-discuss.incutio.com/wiki/Screenreader_Visibility */
-.hidden { display:none; visibility:hidden; } 
+.hidden { display:none; visibility:hidden; }
 
-/* Hide only visually, but have it available for screenreaders 
-   www.webaim.org/techniques/css/invisiblecontent/ 
+/* Hide only visually, but have it available for screenreaders
+   www.webaim.org/techniques/css/invisiblecontent/
    Solution from: j.mp/visuallyhidden - Thanks Jonathan Neal! */
-.visuallyhidden { position:absolute !important;    
+.visuallyhidden { position:absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px); }
 
@@ -281,13 +281,17 @@ a:visited {
 a:hover {
 	font-style:italic;
 }
- 
+
 #container {
  	text-align:left;
  	margin:20px auto 0 auto;
  	max-width:980px;
 	position:relative;
 	padding:0 0 0px 0;
+}
+
+#contacto {
+  display: flex;
 }
 
 	span.lang {
@@ -302,18 +306,18 @@ a:hover {
 		padding:10px 0 5px 0px;
 		margin:0 0 5px 0;
 	}
- 
+
 header {
 	border-bottom:1px solid #000;
 	padding:0;
 	margin:0 0 0px 0;
 }
 
-	header h1 { 
+	header h1 {
 		font-size: 13px;
 	  	font-weight: bold;
 		margin:0 0 5px 0;
-		padding:0 0 0 4px; 
+		padding:0 0 0 4px;
 		cursor:pointer;
 	}
 
@@ -332,7 +336,7 @@ header {
 		width:50%;
 		margin:0;
 		float:left;
-	}	
+	}
 
 nav {
 	border-bottom:1px solid #000;
@@ -343,7 +347,7 @@ nav {
 	nav ul {
 		padding:0;
 		margin:0 0 5px 0;
-	}	
+	}
 
 		nav ul li {
 			display:inline;
@@ -362,14 +366,14 @@ nav {
 				  font-weight: bold;
 			}
 
-			nav ul li a:hover , 
+			nav ul li a:hover ,
 			nav ul li.current-menu-item a ,
 			.home nav ul li.menu-item-132 a {
 				/*font-style:italic;*/
 				color:#800080;
 			}
 
-			nav ul li#menu-item-135 a:hover , 
+			nav ul li#menu-item-135 a:hover ,
 			nav ul li#menu-item-135.current-menu-item a ,
 			.home nav ul li.menu-item-132 a {
 				/*font-style:italic;*/
@@ -397,7 +401,7 @@ html body #container #main h2 a.loading {
 }
 
 .menu li a{
-	color:#666;	
+	color:#666;
 }
 
 #main h2.entry-title a ,
@@ -420,7 +424,7 @@ html body #container #main h2 a.loading {
     margin-top:25px;
 }
 #main .biotexto p a{
-    color: #800080; 
+    color: #800080;
 }
 
 	#main .post .post-inner {
@@ -431,7 +435,7 @@ html body #container #main h2 a.loading {
 	 	font-family: 'lucida grande', 'lucida sans unicode', sans-serif;
 		font-family: 'PT Serif', serif;
 		*/
-		
+
 		border-bottom:1px solid #000;
 		max-height:99999vh;
 		font-size:1.1em;
@@ -457,11 +461,11 @@ text-decoration: underline;
 		width:47.5%;
 		float:left;
 		margin:0 0 0.98% 0;
-		font-size: 14px; 
+		font-size: 14px;
     	line-height: 20px;
 	}
-    #main .post .post-inner .dos_columnas .columna span { 
-		font-size: 14px; 
+    #main .post .post-inner .dos_columnas .columna span {
+		font-size: 14px;
     	line-height: 20px;
 	}
 	#main .post .post-inner .dos_columnas .izq {
@@ -549,14 +553,14 @@ body .video{
 }
 .videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; 
+	padding-bottom: 56.25%;
 	padding-top: 0px;
 	height: 0;
-	background:#fff;    
+	background:#fff;
 	margin-bottom: 10px;
 }
 .videoWrapper.center {
-    padding-bottom: 0; 
+    padding-bottom: 0;
     height: auto;
 }
 .videoWrapper iframe {
@@ -585,7 +589,7 @@ body .video{
 div.aligncenter {
    display: block;
    margin-left: auto;
-   margin-right: auto; 
+   margin-right: auto;
 }
 
 .alignleft {
@@ -641,23 +645,23 @@ div.aligncenter {
 	/* End captions */
 
 
-/* 
+/*
  * print styles
- * inlined to avoid required HTTP connection www.phpied.com/delay-loading-your-print-css/ 
+ * inlined to avoid required HTTP connection www.phpied.com/delay-loading-your-print-css/
  */
 @media print {
   * { background: transparent !important; color: #444 !important; text-shadow: none; }
 
   a, a:visited { color: #444 !important; text-decoration: underline; }
 
-  a:after { content: " (" attr(href) ")"; } 
+  a:after { content: " (" attr(href) ")"; }
 
   abbr:after { content: " (" attr(title) ")"; }
-  
+
   .ir a:after { content: ""; }  /* Don't show links for images */
-  
+
   pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  
+
   img { page-break-inside: avoid; }
 
   @page { margin: 0.5cm; }
@@ -674,21 +678,21 @@ div.aligncenter {
  */
 @media screen and (max-width: 520px) {
 	.aligncenter,
-	div.aligncenter { 
+	div.aligncenter {
 	   width: 100%!important;
 	}
 }
-@media all and (orientation:portrait) { 
+@media all and (orientation:portrait) {
   /* Style adjustments for portrait mode goes here */
-  
+
 }
 
-@media all and (orientation:landscape) { 
+@media all and (orientation:landscape) {
   /* Style adjustments for landscape mode goes here */
-  
+
 }
 
-/* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
+/* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)
    Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
 @media screen and (max-width: 320px) {
 	#main .post .post-inner .dos_columnas .columna {
@@ -697,15 +701,15 @@ div.aligncenter {
 		float:none;
 		margin:0 0 0 0;
 	}
-	
+
 	#main .post .post-inner .dos_columnas .izq {
 		margin-bottom:12px;
 		margin-right: 0;
 	}
-  
+
 
   /* Prevent iOS, WinMobile from adjusting font size */
-  html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } 
+  html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; }
 }
 
 @media screen and (max-width: 1024px) {

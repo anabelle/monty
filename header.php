@@ -83,12 +83,16 @@
     <header>
 	<h1 id="montyme" class="off"><?php bloginfo("name"); ?></h1>
 	<address id="contacto" class="clearfix ">
-		<?php echo(stripslashes(get_option("monty_contacto",'default'))); ?>
+		<div>
+			<?php echo(stripslashes(get_option("monty_contacto",'default'))); ?>
+		</div>
+		<div>
+			<nav>
+				<?php wp_nav_menu('main'); ?>
+			</nav>
+		</div>
 	</address>
     </header>
-    <nav>
-    	<?php wp_nav_menu('main'); ?>
-    </nav>
 
 	<!-- <span class="lang">
 		<a href="#en">English</a>
