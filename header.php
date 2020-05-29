@@ -84,8 +84,8 @@
   <div id="container">
     <header>
 	<h1 id="montyme" class="off"><?php bloginfo("name"); ?></h1>
-	<address id="contacto" class="clearfix desactivado">
-		<?php echo(stripslashes($monty_contacto)); ?>
+	<address id="contacto" class="clearfix ">
+		<?php echo(stripslashes(get_option("monty_contacto",'default'))); ?>
 	</address>
     </header>
     <!-- <nav>
