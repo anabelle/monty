@@ -304,7 +304,7 @@ a:hover {
 #contacto .datos {
   display: inline-block;
     vertical-align: middle;
-    line-height: 30px;
+    line-height: 37px;
 }
 
 
@@ -381,11 +381,14 @@ nav {
 				  font-weight: bold;
 			}
 
-			nav ul li a:hover ,
+			nav ul li a:hover {
+        font-style: italic;
+      }
 			nav ul li.current-menu-item a ,
 			.home nav ul li.menu-item-132 a {
 				/*font-style:italic;*/
-				color:#800080;
+				font-weight: bold;
+        text-decoration: underline;
 			}
 
 			nav ul li#menu-item-135 a:hover ,
