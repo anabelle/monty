@@ -86,7 +86,7 @@
 		<div>
 			<?php echo(stripslashes(get_option("monty_contacto",'default'))); ?>
 		</div>
-		<div>
+		<div class="nav">
 			<nav>
 				<?php wp_nav_menu('main'); ?>
 			</nav>

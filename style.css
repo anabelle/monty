@@ -291,8 +291,16 @@ a:hover {
 }
 
 #contacto {
-  display: flex;
+  display: table-row;
 }
+
+#contacto div {
+  display: table-cell;
+}
+#contacto div.nav {
+  text-align: right;
+}
+
 
 	span.lang {
 		display:block;
@@ -339,9 +347,10 @@ header {
 	}
 
 nav {
-	border-bottom:1px solid #000;
+	border-bottom:none;
 	padding:5px 0 1px 0px;
-
+  display: inline-block;
+  vertical-align: top;
 }
 
 	nav ul {
