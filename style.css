@@ -699,8 +699,15 @@ div.aligncenter {
 	div.aligncenter {
 	   width: 100%!important;
 	}
+  #contacto {
+    display: block;
+  }
   #contacto > div {
     width: 100%;
+  }
+
+  #contacto > div.nav {
+    text-align: left;
   }
 }
 @media all and (orientation:portrait) {
