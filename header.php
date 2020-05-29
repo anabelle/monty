@@ -10,10 +10,10 @@
 	// TRAE CONFIGURACIONES DE PLANTILLA
 	global $options;
 	foreach ($options as $value) {
-    		if (get_settings( $value['id'] ) === FALSE) { 
-			$$value['id'] = $value['std']; 
-		} else { 
-			$$value['id'] = get_settings( $value['id'] ); 
+    		if (get_settings( $value['id'] ) === FALSE) {
+			$$value['id'] = $value['std'];
+		} else {
+			$$value['id'] = get_settings( $value['id'] );
 		}
 	}
 ?>
@@ -26,16 +26,16 @@
   <!-- www.phpied.com/conditional-comments-block-downloads/ -->
   <!--[if IE]><![endif]-->
 
-  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title><?php wp_title( '|', true, 'right' ); bloginfo('title'); ?></title>
   <meta name="description" content="<?php bloginfo('description'); ?>">
-  
+
 
   <!--  Mobile Viewport Fix
-        j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
+        j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
   device-width : Occupy full width of the screen in its current orientation
   initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
   maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
@@ -63,17 +63,15 @@
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
   <script src="<?php bloginfo('stylesheet_directory'); ?>/js/modernizr-1.5.min.js"></script>
 
-	<?php 
+	<?php
 		wp_enqueue_script( 'jquery' );
 		if ( is_singular() && get_option( 'thread_comments' ) )
 			wp_enqueue_script( 'comment-reply' );
-		
-		wp_head(); 
-		
+
+		wp_head();
+
 	?>
 </head>
-
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 
 <!--[if lt IE 7 ]> <body <?php body_class('ie6'); ?>> <![endif]-->
 <!--[if IE 7 ]>    <body <?php body_class('ie7'); ?>> <![endif]-->
@@ -88,9 +86,9 @@
 		<?php echo(stripslashes(get_option("monty_contacto",'default'))); ?>
 	</address>
     </header>
-    <!-- <nav>
+    <nav>
     	<?php wp_nav_menu('main'); ?>
-    </nav> -->
+    </nav>
 
 	<!-- <span class="lang">
 		<a href="#en">English</a>
