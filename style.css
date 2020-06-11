@@ -662,6 +662,9 @@ div.aligncenter {
         }
 	/* End captions */
 
+  .page-id-2 #main .post .post-inner{
+    border-bottom: none;
+  }
 
 /*
  * print styles
